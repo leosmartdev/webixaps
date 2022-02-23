@@ -1,0 +1,115 @@
+{
+  "menu": [
+    {
+      "url": "/admin/dashboard",
+      "name": "Dashboard",
+      "slug": "dashboard",
+      "icon": "feather icon-home",
+      "i18n": "Dashboard"
+    },
+    {
+      "url": "#",
+      "name": "Statistics",
+      "slug": "statistics",
+      "icon": "fa fa-bar-chart",
+      "i18n": "Statistics",
+      "dropdown": "0",
+      "submenu": [
+        {
+          "url": "/admin/statistics",
+          "name": "By Campaigns",
+          "i18n": "By Campaigns",
+          "icon": "feather icon-tag",
+          "slug": "campaigns"
+        },
+        {
+          "url": "/admin/statistics/postbacks",
+          "name": "By Postbacks",
+          "slug": "postbacks",
+          "icon": "fa fa-money",
+          "i18n": "By Postbacks"
+        },
+        {
+          "url": "/admin/statistics/trends",
+          "name": "By Trends",
+          "slug": "trends",
+          "icon": "feather icon-trending-up",
+          "i18n": "By Trends"
+        },
+        {
+          "url": "/admin/statistics/domains",
+          "name": "By Domains",
+          "slug": "domains",
+          "icon": "fa fa-sitemap",
+          "i18n": "By Trends"
+        },
+        {
+          "url": "/admin/statistics/countries",
+          "name": "By Countries",
+          "i18n": "By Countries",
+          "icon": "feather icon-flag",
+          "slug": "countries"
+        }
+      ]
+    },
+    {
+      "url": "/admin/click_events",
+      "name": "Clicks",
+      "slug": "click_events",
+      "icon": "fa fa-mouse-pointer",
+      "i18n": "Clicks"
+    },
+    {
+      "url": "/admin/campaigns",
+      "name": "Campaigns",
+      "slug": "campaigns",
+      "icon": "feather icon-flag",
+      "i18n": "Campaigns"
+    },
+    {
+      "url": "#",
+      "name": "Categories",
+      "slug": "apps",
+      "icon": "feather icon-package",
+      "i18n": "Categories",
+      "dropdown": "0",
+      "submenu": [
+        {
+          "url": "/admin/countries",
+          "name": "Countries",
+          "i18n": "Countries",
+          "icon": "feather icon-flag",
+          "slug": "countries"
+        },
+        {
+          "url": "/admin/feed_categories",
+          "name": "Feed Categories",
+          "i18n": "Feed Categories",
+          "icon": "feather icon-tag",
+          "slug": "feed_categories"
+        },
+        {
+          "url": "/admin/feed_subcategories",
+          "name": "Feed Subcategories",
+          "i18n": "Feed Subcategories",
+          "icon": "feather icon-tag",
+          "slug": "feed_subcategories"
+        }
+      ]
+    },
+    {
+      "url": "/admin/affiliate_networks",
+      "name": "Affiliate Networks",
+      "slug": "affiliate_networks",
+      "icon": "feather icon-link",
+      "i18n": "Affiliate Networks"
+    },
+    {
+      "url": "/admin/feed_sites",
+      "name": "Feed Sites",
+      "slug": "feed_sites",
+      "icon": "fa fa-sitemap",
+      "i18n": "Feed Sites"
+    }
+  ]
+}

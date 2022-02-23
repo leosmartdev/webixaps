@@ -1,0 +1,264 @@
+/*=========================================================================================
+    File Name: laravel-menu.scss
+    Description: laravel Specific menu styles
+    ----------------------------------------------------------------------------------------
+    Item name: Vuexy  - Vuejs, HTML & Laravel Admin Dashboard Template
+    Author: PIXINVENT
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+
+// Core variables and mixins
+@import "bootstrap/functions";
+@import "bootstrap/mixins";
+@import "bootstrap-extended/mixins";
+
+// Core variables and mixins overrides
+@import "core/variables/variables";
+@import "bootstrap/variables";
+
+// Overrides user variable
+@import "core/variables/components-variables";
+
+// Import first main menu mixin
+@import "core/mixins/main-menu-mixin";
+
+//  Vertical menu
+//=========================
+body.vertical-layout {
+   &.vertical-menu-modern {
+        .horizontal-menu-wrapper{
+            display: none;
+        }
+    }
+}
+
+// Horizontal Menu
+//=========================
+.horizontal-menu{
+    // Hide Vertical menu in Horizontal Layout in Laravel not in HTML
+	>.main-menu{
+		display: none;
+	}
+	.fixed-top{
+		left: 0;
+	}
+}
+
+// content style
+//=========================
+html body.navbar-static .app-content .header-navbar {
+    background: transparent;
+    box-shadow: none !important;
+}
+
+@include media-breakpoint-down(xs) {
+    // Vertical Layout
+    body.vertical-layout {
+        &:not(.horizontal-layout){
+            &.navbar-floating{
+                .header-navbar{
+                    margin-left: 1.2rem;
+                    margin-right: 1.2rem;
+                }
+            }
+        }
+    }
+ }
+
+
+ /*** JONARD CSS **/
+.buy-now {
+    display: none;
+}
+a.customizer-toggle {
+    display: none !important;
+}
+.initHide{
+    display: none;
+}
+
+.campaign_logo_preview {
+    width: 132px;
+    height: 42px;
+    border: solid 1px #ddd;
+
+    img{
+        width: 130px;
+        height: 40px;
+    }
+
+}
+
+.campaign_banner_small_preview {
+    width: 300px;
+    height: 250px;
+    border: solid 1px #ddd;
+
+    img{
+        width: 300px;
+        height: 250px;
+    }
+
+}
+
+.campaign_banner_medium_preview {
+    width: 468px;
+    height: 60px;
+    border: solid 1px #ddd;
+
+    img{
+        width: 468px;
+        height: 60px;
+    }
+
+}
+
+.campaign_banner_large_preview {
+    width: 728px;
+    height: 90px;
+    border: solid 1px #ddd;
+
+    img{
+        width: 728px;
+        height: 90px;
+    }
+
+}
+
+/*** TABLES ***/
+
+table#click-events td {
+    padding: 5px 10px;
+}
+table#click-events {
+    font-size: .85rem;
+}
+
+table#click-events tbody td.sorting_1{
+    background: #b6f56e !important;
+    color: black;
+}
+table#click-events tbody tr:hover {
+    background: #b6f56e !important;
+}
+
+
+.dk-wrap{
+    .card.today {
+        background: #d01d32;
+    }
+    .card.yesterday{
+        background: #d01d32;
+    }
+    .card.this-week{
+        background: #d01d32;
+    }
+    .card.this-month{
+        background: #d01d32;
+    }
+}
+
+.se-wrap{
+    .card.today {
+        background: #004e8e;
+    }
+    .card.yesterday{
+        background: #004e8e;
+    }
+    .card.this-week{
+        background: #004e8e;
+    }
+    .card.this-month{
+        background: #004e8e;
+    }
+}
+
+.no-wrap{
+    .card.today {
+        background: #fd2500;
+    }
+    .card.yesterday{
+        background: #fd2500;
+    }
+    .card.this-week{
+        background: #fd2500;
+    }
+    .card.this-month{
+        background: #fd2500;
+    }
+}
+
+.uk-wrap{
+    .card.today {
+        background: #bb261a;
+    }
+    .card.yesterday{
+        background: #bb261a;
+    }
+    .card.this-week{
+        background: #bb261a;
+    }
+    .card.this-month{
+        background: #bb261a;
+    }
+}
+
+.es-wrap{
+    .card.today {
+        background: #ffc500;
+    }
+    .card.yesterday{
+        background: #ffc500;
+    }
+    .card.this-week{
+        background: #ffc500;
+    }
+    .card.this-month{
+        background: #ffc500;
+    }
+}
+
+.mx-wrap{
+    .card.today {
+        background: #166c29;
+    }
+    .card.yesterday{
+        background: #166c29;
+    }
+    .card.this-week{
+        background: #166c29;
+    }
+    .card.this-month{
+        background: #166c29;
+    }
+}
+
+.fi-wrap{
+    .card.today {
+        background: #063482;
+    }
+    .card.yesterday{
+        background: #063482;
+    }
+    .card.this-week{
+        background: #063482;
+    }
+    .card.this-month{
+        background: #063482;
+    }
+}
+
+.pl-wrap{
+    .card.today {
+        background: #dc1f3c;
+    }
+    .card.yesterday{
+        background: #dc1f3c;
+    }
+    .card.this-week{
+        background: #dc1f3c;
+    }
+    .card.this-month{
+        background: #dc1f3c;
+    }
+}

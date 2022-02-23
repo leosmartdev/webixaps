@@ -1,0 +1,320 @@
+
+#campaigns-weedget {
+  @import "../bootstrap/bootstrap";
+
+  #campaigns {
+    margin-bottom: 25px;
+
+    .card {
+      overflow: hidden;
+      position: relative;
+      margin: .5rem 0 1rem;
+      background-color: #ffffff;
+      border-radius: 2px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+      box-sizing: inherit;
+
+      .sponsored-wrapper, .rights-wrapper {
+        font-size: 12px;
+      }
+
+      .tracking_url {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+      }
+    }
+
+    .card-body {
+      padding: 0;
+
+      .left-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .credit-card-img {
+          max-width: 200px;
+          width: 100%;
+          height: auto;
+          max-height: 127px;
+        }
+
+        .rating-wrapper {
+          h6 {
+            color: rgba(254, 185, 9, 1);
+          }
+
+          p {
+            color: #656565;
+            font-size: 13px;
+          }
+        }
+
+        .table {
+          margin-bottom: 0;
+          font-size: 13px;
+          border: none;
+
+          tr {
+            border: none;
+          }
+
+          th {
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            padding-right: 0;
+            padding-left: 0;
+          }
+
+          td {
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            padding-left: 0;
+          }
+        }
+      }
+    }
+
+    .right-section {
+      background: rgba(242, 250, 246, 1);
+
+      .list-group-item {
+        background: none;
+        border: 0;
+
+        .text-wrapper {
+          background: url("/images/icons/checkmark-job.png") no-repeat;
+          padding-left: 20px;
+          background-size: 12px;
+          background-position: 0 2px;
+          margin: 0;
+          font-size: 13px;
+        }
+      }
+
+      .custom-btn-success {
+        background-color: rgba(58, 122, 0, 1);
+        border-color: rgba(43, 89, 0, 1);
+        color: white;
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 5px 0 rgba(0, 0, 0, .15);
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+
+      .custom-forry-text {
+        color: #656565;
+        font-size: 13px;
+      }
+    }
+
+    .card-footer {
+      background-color: #ffffff;
+
+      p {
+        color: #868484;
+        margin: 0;
+        font-size: 12px;
+      }
+
+      .warning {
+        font-size: 13px;
+      }
+    }
+  }
+
+  #casino_campaigns {
+    margin-bottom: 25px;
+
+    .header {
+      background: #c42026;
+      padding: 10px 0;
+      margin: 0;
+
+      p {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        line-height: 1;
+        margin: 0;
+        letter-spacing: 0;
+      }
+
+      .rank {
+        font-size: 0.6rem;
+      }
+    }
+
+    .card {
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 0.5rem;
+      background-color: #f3f2f2;
+      border-radius: 2px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .card-body {
+      padding: 15px 0;
+
+      .card-casino-section-1 {
+        .loan-img {
+          border-radius: 5px;
+          height: 60px;
+          width: 60px;
+        }
+
+        .text {
+          color: #ef4136;
+          font-weight: bold;
+          font-size: 0.7rem;
+          text-transform: uppercase;
+        }
+
+        .nr {
+          font-size: 0.7rem;
+          color: #ccc;
+          margin: 0;
+        }
+      }
+
+      .card-casino-section-2 {
+        .text {
+          font-size: 0.8rem;
+          line-height: 1.1rem;
+          margin-bottom: 0.7rem;
+          color: #000;
+          padding: 4px 0;
+          font-weight: bold;
+          text-align: center;
+          span {
+            font-size: 0.7rem;
+            font-weight: normal;
+          }
+        }
+
+        .text-extra {
+          font-size: 0.7rem;
+        }
+      }
+
+      .card-casino-section-3 {
+        .text {
+          color: #000;
+          font-size: 0.7rem;
+          line-height: 0.7rem;
+        }
+      }
+
+      .card-casino-section-4 {
+        .star {
+          color: #0FD43B;
+          font-size: 1rem;
+          line-height: 1rem;
+          margin-right: 0.1rem;
+          position: relative;
+          &:last-of-type {
+            margin-right: 0;
+          }
+        }
+        .shadow{
+          box-shadow: none !important;
+          &:after{
+            content: "\2605";
+            position: absolute;
+            color: #ffffff;
+            left: 0.2rem;
+            font-size: 0.6rem;
+            line-height: 0.7rem;
+            top: 0.1rem;
+          }
+        }
+        .link {
+          font-size: 0.7rem;
+          color: #495057;
+          text-decoration: underline;
+        }
+      }
+
+      .card-casino-section-5 {
+        .btn {
+          color: #ffffFf;
+          background: #339D40;
+          display: block;
+          width: 100%;
+          font-size: 0.7rem;
+        }
+
+        .form {
+          position: relative;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          -webkit-box-align: stretch;
+          -ms-flex-align: stretch;
+          align-items: stretch;
+          width: 100%;
+          background: #f8f8f8;
+          border-radius: 3px;
+          border: 1px solid #ccc;
+          margin-bottom: .5rem;
+          font-size: 0.7rem;
+        }
+
+        .promo-code {
+          font-size: 0.7rem;
+          display: block;
+          padding: .375rem .75rem;
+          line-height: 1.5;
+          color: #495057;
+          background-color: #f8f8f8;
+          background-clip: padding-box;
+          border-radius: 3px;
+          position: relative;
+          -webkit-box-flex: 1;
+          -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+          width: 80%;
+          margin-bottom: 0;
+          border: none;
+          box-shadow: none;
+        }
+
+        .button {
+          margin: .125rem;
+          position: absolute;
+          border: 1px #e9ecef solid;
+          background: #fff;
+          color: #6c757d;
+          padding: 0 0.5rem;
+          right: 0;
+          height: 90%;
+          float: right;
+          font-size: 0.7rem;
+        }
+      }
+    }
+
+    .card-footer {
+      background-color: #f3f2f2;
+      border-top: none;
+
+      p {
+        font-size: 10px;
+        color: #495057;
+        line-height: 14px;
+      }
+    }
+  }
+}
+
+
+
+
